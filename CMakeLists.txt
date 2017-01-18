@@ -3,5 +3,5 @@ project(adaboost_project)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES adaboost.cpp)
 add_executable(adaboost_run ${SOURCE_FILES})
